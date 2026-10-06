@@ -2,7 +2,7 @@
 - Open the project in IntelliJ IDEA.
 - Run the `CalculatorMain.java` class.
 - Observe that the code runs without errors.
-- 
+
 # I structured the code around three small interfaces in compliance with the ISP:
 - BasicOperations: add, subtract, multiply, divide
 - ScientificOperations: sqrt, log, sin, cos
