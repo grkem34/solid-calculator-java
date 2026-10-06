@@ -1,3 +1,8 @@
+# Running the project:
+- Open the project in IntelliJ IDEA.
+- Run the `CalculatorMain.java` class.
+- Observe that the code runs without errors.
+- 
 # I structured the code around three small interfaces in compliance with the ISP:
 - BasicOperations: add, subtract, multiply, divide
 - ScientificOperations: sqrt, log, sin, cos
@@ -10,8 +15,3 @@
 
 # As a result:
 - No class is forced to implement a method it does not use. CalculatorMain calls the specific operations for each calculator.
-
-# Running the project:
-- Open the project in IntelliJ IDEA.
-- Run the `CalculatorMain.java` class.
-- Observe that the code runs without errors.
